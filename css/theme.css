@@ -238,7 +238,10 @@ header .nav-list-item a {
 .post-content h4,
 .post-content h5,
 .post-content h6 {
-  margin-bottom: 1em;
+  margin-bottom: 0.4em;
+}
+.post-content h2 {
+    margin-bottom: 0.05em;
 }
 
 .post-content h2 a:before,
@@ -267,13 +270,13 @@ header .nav-list-item a {
 }
 
 .post-content h2 {
-  margin-top: 1.8em;
-  font-size: 2.8em;
+  margin-top: 0.8em;
+  font-size: 1.4em;
 }
 
 .post-content h3 {
-  margin-top: 1.6em;
-  font-size: 2.6em;
+  margin-top: 0.2em;
+  font-size: 1em;
 }
 
 .post-content h4 {
