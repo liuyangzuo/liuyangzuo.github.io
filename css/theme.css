@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 body {
   color: #222831;
   font-size: calc(110% + 0.1vw);
@@ -46,9 +49,18 @@ h6 {
 }
 
 .nav-list {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  /*display: flex;*/
+  /*flex-wrap: wrap;*/
+  /*justify-content: center;*/
+  padding-left: 0;
+}
+header .nav-list-item {
+  display: inline-block;
+  padding: 1em .2em;
+}
+header .nav-list-item a {
+  font-size: .9em;
+  line-height: 1.4;
 }
 
 .nav-list-link {
@@ -155,15 +167,6 @@ header .branding {
 .logo-image {
   width: 4em;
 }
-header .nav-list-item {
-  display: inline-block;
-  padding: 1em .8em;
-}
-header .nav-list-item a {
-  font-size: .9em;
-  line-height: 1.4;
-}
-
 .home.post-list {
   margin: 2em 0;
 }
